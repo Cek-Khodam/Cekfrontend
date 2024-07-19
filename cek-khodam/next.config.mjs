@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+
+const nextConfig = (phase) => ({
+  reactStrictMode: true,
+  swcMinify: true,
+});
 
 export default nextConfig;
